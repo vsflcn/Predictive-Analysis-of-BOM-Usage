@@ -16,8 +16,7 @@ CREATE TABLE IF NOT EXISTS inventory_usage (
     quantity REAL,
     unit TEXT,
     price_per_unit REAL,
-    total_value REAL
-)
+    total_value REAL)
 ''')
 
 def generate_product_name(product_code):
